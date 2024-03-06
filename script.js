@@ -7,10 +7,10 @@ document.querySelector('.btn1').addEventListener('click', function() {
     document.querySelector('.img2').setAttribute('src', `images/dice${randomNum2}.png`);
 
     if(randomNum > randomNum2 ){
-        document.getElementById("winner").innerHTML = 'Player 1 win!';
+        document.getElementById("winner").innerHTML = 'Player 1 wins!';
     }
     else if(randomNum < randomNum2 ){
-        document.getElementById("winner").innerHTML = 'Player 2 win!';
+        document.getElementById("winner").innerHTML = 'Player 2 wins!';
     }
     else if(randomNum  == randomNum2 ){
         document.getElementById("winner").innerHTML = 'Draw!';
