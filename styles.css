@@ -66,6 +66,11 @@ img {
 
 
 @media (max-width: 780px)  {
+  .container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
   h1, h2 {
     margin-bottom: 20px;
     font-size: 3rem;
